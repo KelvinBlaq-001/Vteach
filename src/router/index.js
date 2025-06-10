@@ -91,7 +91,7 @@ const routes = [
 {
   path: '/admin/students/:id',
   name: 'StudentProfile',
-  component: () => import('@/views/admin/students/StudentProfile.vue') // or your correct path
+  component: () => import('@/views/admin/Students/StudentProfile.vue') // or your correct path
 },
 
 {
